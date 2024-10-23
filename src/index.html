@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="component">
+        <div class="login">
+            <div style="margin-right: 20px; cursor: pointer;">Sign in / Guest</div>
+            <div style="cursor: pointer;">Login</div>
+        </div>
+    </div>
+    <header>
+        <div class="component-nav">
+            <nav>
+                <div class="nav-left">
+                    <a href="http://127.0.0.1:5500/src/index.html" class="logo">
+                        <i class="fas fa-couch"></i>
+                    </a>
+
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/src/products.html">Products</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <button class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="component">
+        <section class="hero">
+            <div style="max-width: 600px;">
+                <h1>We are changing the way people shop</h1>
+                <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et voluptas saepe in quae voluptate,
+                laborum maiores possimus illum reprehenderit aut delectus veniam cum perferendis unde sint doloremque
+                non nam.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button style="border-radius: 10px ;" id=""><a href="http://127.0.0.1:5500/src/products.html">Our Products</a></button>
+            </div>
+            <div class="hero1">
+                <img class="img" src="./hero1.webp" alt="">
+            </div>
+        </section>
+    </div>
+
+    <section class="products">
+        <div id="product-list" class="product-grid"></div>
+    </section>
+
+
+
+    <!-- <script src="app.js" type="module"></script> -->
+</body>
+
+</html>
